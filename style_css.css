@@ -1,0 +1,66 @@
+body{
+
+    background-color: antiquewhite;
+    
+    /*background-image: url("imgs/c8.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: left top;*/
+    /*background-attachment: fixed;*/
+    /*background-size: 500px 500px;*/
+}
+
+
+p{
+    /*width: 200px;*/
+    /*padding: 10px;*/
+    /*background-color: aquamarine;*/
+    /*background-image: url("imgs/c8.jpg");*/
+
+    /*color: red;*/
+    /*text-align: center;*/
+
+    /*文字阴影*/
+    /*text-shadow: 5px 5px 0px #ff0000;*/
+
+    /*自动换行*/
+    /*width: 100px;*/
+    /*text-wrap: none;*/
+
+
+    font-size: 20px;
+    font-family: cursive;
+}
+h5{
+    /*首行缩进*/
+    text-indent: 2em;
+}
+
+a:link{
+    color: #ff0000;
+    /*下划线*/
+    text-decoration: none;
+}
+a:visited{
+    color: #00ff00;
+}
+a:hover{
+    color: #0000ff;
+}
+a:active{
+    color: #000000;
+}
+
+ul li{
+
+    list-style-type: cjk-ideographic;
+    /*list-style-image: url("imgs/c8.jpg");*/
+
+}
+
+ul.ul1{
+   list-style-position: inside;
+}
+ul.ul2{
+   list-style-position: outside;
+}
+

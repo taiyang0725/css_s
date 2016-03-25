@@ -1,0 +1,18 @@
+.a {
+    width: 100px;
+    height: 100px;
+    background-color: #00ff00;
+    float: right;
+}
+
+.b {
+    width: 150px;
+    height: 150px;
+    background-color: #000000;
+}
+
+.c {
+    width: 100px;
+    height: 100px;
+    background-color: #0000ff;
+}

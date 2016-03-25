@@ -1,0 +1,13 @@
+.div1 {
+    column-count: 4;
+    -moz-column-count: 4;
+    column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-rule: 5px outset #FF0000;
+    -moz-column-rule: 5px outset #FF0000;
+
+}
+
+p {
+    text-indent: 20px;
+}

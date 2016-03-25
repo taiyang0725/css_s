@@ -1,0 +1,26 @@
+#position_1 {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    /*相对布局--relative*/
+    /*绝对布局--absolute*/
+    /*固定布局--fixed*/
+    /*静态布局--static*/
+    position: relative;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+}
+#position_2 {
+    width: 100px;
+    height: 100px;
+    background-color: #00ff00;
+    /*相对布局--relative*/
+    /*绝对布局--absolute*/
+    /*固定布局--fixed*/
+    /*静态布局--static*/
+    position: relative;
+    left: 50px;
+    top: 10px;
+    z-index: 1;
+}

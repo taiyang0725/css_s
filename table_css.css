@@ -1,0 +1,32 @@
+#tb {
+    /*折叠边框*/
+    border-collapse: collapse;
+    width: 500px;
+}
+
+#tb tr th {
+    border: 1px solid #ff0000;
+    padding: 5px;
+    text-align: center;
+}
+
+#tb td {
+    border: 1px solid #ff0000;
+    padding: 5px;
+}
+
+#tb th {
+
+    text-align: right;
+    background-color: aliceblue;
+    color: #00ff00;
+}
+
+#tb tr.alt td {
+
+    color: #000000;
+    background-color: aqua;
+}
+
+
+

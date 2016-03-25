@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+}
+
+.div {
+    width: 70%;
+    height: 100px;
+    background-color: #ff0000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+/*未点击，以点击*/
+a:link, a:visited {
+
+    text-decoration: none; /*去掉下划线*/
+    /*display: block;*/
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    width: 100px;
+}
+
+/*当鼠标放上去的时候*/
+a:active, a:hover {
+    background-color: white;
+    color: #000000;
+}
+
+li {
+    display: inline;
+}
+
+.images {
+    border: 1px solid #ff0000;
+    width: auto;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin: 10px;
+
+}
+
+img {
+    margin: 10px;
+}
+
+.text {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.div_body{
+    width: 70%;
+    margin: auto;
+}
